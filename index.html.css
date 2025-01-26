@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('image2.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centered container styling */
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+/* Heading styling */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+}
+
+/* Input field styling */
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #007BFF; /* Light blue border on focus */
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Adjust spacing for the form elements */
+form input {
+    margin-bottom: 15px;
+}
